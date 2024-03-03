@@ -57,7 +57,7 @@ public class SThread extends Thread
             System.out.println("Client/Server said: " + inputLine);
             if (inputLine.equals("Bye.")) // exit statement
 					break;
-					System.out.println("We left loop");
+					//System.out.println("We left loop");
             outputLine = inputLine; // passes the input from the machine to the output string for the destination
 				
 				if ( outSocket != null){				
